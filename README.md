@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# IKEA Used Furniture Marketplace UI 🇸🇪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend UI prototype for a **marketplace to buy and sell verified used IKEA furniture**, developed for the IKEA Consulting Competition at TKS, where it contributed to our semi-finalist placement.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Modern UI** – Built with React + TypeScript + Vite.
+- **Product Listings** – Browse and view detailed information about IKEA furniture.
+- **Search & Filter** – Find items by category, price, and condition.
+- **User Profiles** – Display seller and buyer details.
+- **Messaging** - Message users & listings on the platform.
+- **View Details** – Click on a product for more information.
+- **View Authentication Reports** - View authentication reports of listed furniture.
+- **Checkout Experience** - Add items to cart and play around with the experience of buying an item through the platform.
+- **Authentication Process** - See how it would look to verify your IKEA furniture and what the process would look like!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript, Vite
+- **UI Framework:** Tailwind CSS / Material UI
+- **State Management:** Context API / Redux (if applicable)
+- **Routing:** React Router
 
-## Expanding the ESLint configuration
+## 🏆 Acknowledgments
+Developed as part of TKS IKEA Consulting Competition.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📩 Contact
+I'm always open for a chat! Reach out to me via email: noah@barbaros.ca or my LinkedIn: https://www.linkedin.com/in/noah-barbaros/
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
